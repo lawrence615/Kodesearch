@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kodesearch="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/action_share"
+        kodesearch:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_facebook"
+                android:icon="@drawable/ic_action_facebook"
+                android:title="@string/action_share_to_facebook"
+                kodesearch:showAsAction="never"/>
+            <item
+                android:id="@+id/action_twitter"
+                android:icon="@drawable/ic_action_twitter"
+                android:title="@string/action_tweet"
+                kodesearch:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>
